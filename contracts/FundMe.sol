@@ -55,6 +55,7 @@ contract FundMe {
             amountSent[fundersAddress] = 0;
         }
 
+        //reset funders array
         funders = new address[](0);
 
         //withdraw the money to the person calling this function
@@ -62,12 +63,12 @@ contract FundMe {
 
         // 1. Using transfer method
 
-        payable(msg.sender).transfer(address(this).balance);
+        // payable(msg.sender).transfer(address(this).balance);
 
-        // 2. Using send method
+        // // 2. Using send method
 
-        bool sendSuccess = payable(msg.sender).send(address(this).balance);
-        require(sendSuccess, "Send not successful");
+        // bool sendSuccess = payable(msg.sender).send(address(this).balance);
+        // require(sendSuccess, "Send not successful");
 
         // 2. Using call method
 
