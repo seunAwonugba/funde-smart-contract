@@ -7,6 +7,7 @@
         "lint-solidity": "npx solhint 'contracts/**/*.sol'",
         "compile": "npx hardhat compile",
         "deploy": "npx hardhat deploy --network sepolia",
+        "test:staging": "npx hardhat test --network sepolia",
         "test": "npx hardhat test",
         "clean": "npx hardhat clean"
     },
