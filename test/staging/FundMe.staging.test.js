@@ -3,7 +3,6 @@ const { developmentChains } = require("../../helper");
 const { assert } = require("chai");
 if (developmentChains.includes(network.name)) {
     describe.skip;
-    // 0x034C89C4fb414a7545422908F4baF6Be58F5360d
 } else {
     describe("FundMe", async () => {
         let fundMe;

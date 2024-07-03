@@ -9,7 +9,10 @@
         "deploy": "npx hardhat deploy --network sepolia",
         "test:staging": "npx hardhat test --network sepolia",
         "test": "npx hardhat test",
-        "clean": "npx hardhat clean"
+        "clean": "npx hardhat clean",
+        "script:fund": "npx hardhat run script/fund.js --network localhost",
+        "script:withdraw": "npx hardhat run script/withdraw.js --network localhost",
+        "start:node": "npx hardhat node"
     },
     "author": "seun awonugba",
     "license": "ISC",
