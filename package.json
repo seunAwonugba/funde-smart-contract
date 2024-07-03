@@ -7,7 +7,8 @@
         "lint-solidity": "npx solhint 'contracts/**/*.sol'",
         "compile": "npx hardhat compile",
         "deploy": "npx hardhat deploy --network sepolia",
-        "test": "npx hardhat test"
+        "test": "npx hardhat test",
+        "clean": "npx hardhat clean"
     },
     "author": "seun awonugba",
     "license": "ISC",
@@ -27,7 +28,7 @@
         "@typechain/hardhat": "^9.1.0",
         "@types/mocha": "^10.0.7",
         "ethers": "^6.13.1",
-        "hardhat": "^2.22.5",
+        "hardhat": "^2.22.6",
         "hardhat-deploy": "^0.12.4",
         "hardhat-deploy-ethers": "^0.4.2",
         "hardhat-gas-reporter": "^2.2.0",

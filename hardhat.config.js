@@ -52,7 +52,7 @@ module.exports = {
     gasReporter: {
         currency: "USD",
         L1: "ethereum",
-        coinmarketcap: COIN_MARKET_CAP_API_KEY,
+        // coinmarketcap: COIN_MARKET_CAP_API_KEY,
     },
 };
 
