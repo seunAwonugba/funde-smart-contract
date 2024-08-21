@@ -12,7 +12,8 @@
         "clean": "npx hardhat clean",
         "script:fund": "npx hardhat run script/fund.js --network localhost",
         "script:withdraw": "npx hardhat run script/withdraw.js --network localhost",
-        "start:node": "npx hardhat node"
+        "start:node": "npx hardhat node",
+        "hardhat:node" : "npx hardhat node"
     },
     "author": "seun awonugba",
     "license": "ISC",
